@@ -121,7 +121,7 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/Mention
         if (!!message.mention && message.mention[0] == Config.AFNN) {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['Dheeran','Filo','dheerachi','nexusnw','owner','nw akhil','tear pc']
+const array = ['Dheeran','Filo','dheerachi','nexusnw','owner','nw akhil','tear pc','Aflah','chunk','hehe','oomfi','paisa','power','navak','Athul','pain','Leroi']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -153,7 +153,7 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/Mention
         if (!!message.mention && message.mention[0] == Config.AFNN) {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['Dheeran','Filo','nexusnw','owner','nw akhil','tear pc']
+const array = ['Dheeran','Filo','nexusnw','owner','nw akhil','tear pc','Aflah','chunk','hehe','oomfi','paisa','power','navak','Athul','pain','Leroi']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -180,7 +180,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if (!!message.mention && message.mention[0] == '918129624395@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/nexusnw.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
-const array = ['Dheeran','nw akhil','filo']
+const array = ['Dheeran','nw akhil','filo','navak','Athul','pain','Leroi']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
