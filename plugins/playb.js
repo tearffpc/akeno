@@ -43,13 +43,7 @@ Asena.addCommand({pattern: 'splay ?(.*)', fromMe: false, dontAddCommandList: tru
     
 
 }
-     Asena.addCommand({ pattern: 'gplay ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
-
-        if (match[1] === '') return await message.sendMessage(need);
-
-        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/gplaybutton?apikey=bY17wlPg4XQvRQkJRqXjPPipPd2&text=$%20=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
-
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by FILO*' })
+     sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by FILO*' })
 
     }));
 
