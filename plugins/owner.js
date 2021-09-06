@@ -46,7 +46,7 @@ else if (Config.WORKTYPE == 'public') {
             await message.client.sendMessage(message.jid,'FILO created by *nexusNw*' , MessageType.text);
         }
         else {
-            await message.client.sendMessage(message.jid,Config.PLK + '\n\n--------------------', MessageType.text);
+            await message.client.sendMessage(message.jid,Config.PLK + '\n\n---------FILO-----------', MessageType.text);
         }
     }));
 }
