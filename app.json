@@ -41,6 +41,16 @@
             "required": true,
             "value": "false"
         },
+        "SAID_NUMBER": {
+            "description": "use your orginal phone number ex 918606759500",
+            "required": false,
+            "value": "918606759500"
+        },
+        "LIYA_NAME": {
+            "description": "use your condact name",
+            "required": false,
+            "value": "LIYAMOL"
+        },
         "AUTO_BİO": {
             "description": "Duruma otomatik tarih ve zaman eklemek için true yapın. Set true for auto date, time in biography.",
             "required": true,
