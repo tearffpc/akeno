@@ -1053,17 +1053,18 @@ else if (config.WORKTYPE == 'public') {
             message.reply(Lang.IMG.format((result.length < 2 ? result.length : 2), match[1]));
         });
     }));
-  Asena.addCommand({ pattern: 'number ?(.*)', fromMe: false, desc: 'owner number' }, (async (message, match) => {
+  Asena.addCommand({ pattern: 'number ?(.*)', fromMe: true, desc: 'owner number' }, (async (message, match) => {
 
 
-const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
+    const vcard = 'BEGIN:VCARD\n' // saidali said
             + 'VERSION:3.0\n' 
-            + 'FN:Config.LIYANAME\n' // full name
+            + 'FN:nexusNw\n' //coded by saidali   not copy this
             + 'ORG:script SAIDALI;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=Config.SAID_NUMBER:+91 8606759500\n' // WhatsApp ID + phone number
+            + 'TEL;type=CELL;type=VOICE;waid=918129624395:+91 8606759500\n' //created saidali
             + 'END:VCARD'
-await message.client.sendMessage(message.jid,{displayname: "Config.LIYANAME", vcard: vcard}, MessageType.contact)
+    await message.client.sendMessage(message.jid,{displayname: "nexusNw", vcard: vcard}, MessageType.contact)
 }))
+
 
     Asena.addCommand({ pattern: 'github ?(.*)', fromMe: false, desc: Glang.GİTHUB_DESC }, async (message, match) => {
 
