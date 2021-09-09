@@ -50,7 +50,7 @@ Project created by <a href="https://github.com/nexusNw">Aflahxrd</a> to make it 
   
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@nexusNw/filo?v=1)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nexusNw/filo)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/tearffpc/filo)
      </div>
 <br>
 <br >
