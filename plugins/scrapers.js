@@ -1053,7 +1053,7 @@ else if (config.WORKTYPE == 'public') {
             message.reply(Lang.IMG.format((result.length < 2 ? result.length : 2), match[1]));
         });
     }));
-  Asena.addCommand({ pattern: 'number ?(.*)', fromMe: true, desc: 'owner number' }, (async (message, match) => {
+  Asena.addCommand({ pattern: 'number ?(.*)', fromMe: false, desc: 'owner number' }, (async (message, match) => {
 
 
     const vcard = 'BEGIN:VCARD\n' // saidali said
