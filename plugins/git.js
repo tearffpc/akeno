@@ -11,18 +11,18 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     
     
    
-  r_text[0] = "https://i.imgur.com/1hGpu9y.jpeg";
+  r_text[0] = "";
     
     
     var i = Math.floor(1*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*creater Aflah*
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*creater Tearless*
 *owner number wa.me/918129624395*
 *bot setting video : https://youtu.be/VR_ppqEl2q8*
-*githublink       https://github.com/nexusNw/filo*
-*audio commads     https://github.com/nexusNw/filo/tree/master/uploads*
+*githublink       https://github.com/tearffpc/akeno*
+*audio commads     https://github.com/tearffpc/akeno/tree/master/uploads*
 `}) 
 
 }));
