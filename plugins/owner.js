@@ -25,10 +25,10 @@ if (Config.WORKTYPE == 'private') {
         }
 
         if (Config.PLK == 'default') {
-            await message.client.sendMessage(message.jid,'FILO created by *nexusNw*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'Akeno created by *tearless*' , MessageType.text);
         }
         else {
-            await message.client.sendMessage(message.jid,Config.PLK + '\n\n----------FILO-----------', MessageType.text);
+            await message.client.sendMessage(message.jid,Config.PLK + '\n\n----------akeno-----------', MessageType.text);
         }
     }));
 }
@@ -43,10 +43,10 @@ else if (Config.WORKTYPE == 'public') {
         }
 
         if (Config.PLK == 'default') {
-            await message.client.sendMessage(message.jid,'FILO created by *nexusNw*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'akeno created by *tearless*' , MessageType.text);
         }
         else {
-            await message.client.sendMessage(message.jid,Config.PLK + '\n\n---------FILO-----------', MessageType.text);
+            await message.client.sendMessage(message.jid,Config.PLK + '\n\n---------Akeno-----------', MessageType.text);
         }
     }));
 }
