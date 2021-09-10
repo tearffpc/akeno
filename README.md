@@ -1,10 +1,10 @@
 <div align="center">
   <img border-radius: 15px src="thumb-1920-1015834.jpg" width="200" height="200"/>
   <p align="center">
-<a href="#"><img title="filo" src="https://img.shields.io/badge/filo-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="akeno" src="https://img.shields.io/badge/akeno-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://github.com/nexusNw"><img title="Author" src="https://img.shields.io/badge/Author-nexusNw-/filo?color=f7df1e&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/tearffpc"><img title="Author" src="https://img.shields.io/badge/Author-tearffpc-/akeno?color=f7df1e&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 
@@ -16,11 +16,11 @@
 
 
   <p align="center">
-<a href="https://github.com/nexusNw"><img title="Author" src="https://img.shields.io/badge/Author-saidali/filo?color=black&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/tearffpc"><img title="Author" src="https://img.shields.io/badge/Author-saidali/akeno?color=black&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/nexusNw">Aflahxrd</a> to make it public
+Project created by <a href="https://github.com/tearffpc">tearless</a> to make it public
     <br>
        | © |
         Reserved |
@@ -35,8 +35,8 @@ Project created by <a href="https://github.com/nexusNw">Aflahxrd</a> to make it 
 <p align="center">
 <a href="https://github.com/nexusNw/followers"><img title="Followers" src="https://img.shields.io/github/followers/nexusNw?color=red&style=flat-circle"></a>
 <a href="https://github.com/nexusNw/Nexus_sir/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/nexusNw/Nexus_sir?color=red&style=flat-square"></a>
-<a href="https://github.com/nexusNw/Nexus_sir/network/members"><img title="Forks" src="https://img.shields.io/github/forks/nexusNw/Nexus_sir?color=red&style=flat-square"></a>
-<a href="https://github.com/nexusNw/Nexus_sir/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/nexusNw/Nexus_sir?label=Watchers&color=red&style=flat-square"></a>
+<a href="https://github.com/nexusNw/Nexus_sir/network/members"><img title="Forks" src="https://img.shields.io/github/forks/nexusNw/filo?color=red&style=flat-square"></a>
+<a href="https://github.com/nexusNw/Nexus_sir/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/nexusNw/filo?label=Watchers&color=red&style=flat-square"></a>
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
 
 
@@ -81,9 +81,9 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developers
   <div align="center">
     
-  [![Aflahxrd](https://github.com/nexusNw.png?size=100)](https://github.com/nexusNw) |  [![Alien-Alfa](https://github.com/Alien-alfa.png?size=100)](https://github.com/AI-VIKI) | [![afnanplk](https://github.com/afnanplk.png?size=100)](https://github.com/afnanplk) 
+  [![Aflahxrd](https://github.com/nexusNw.png?size=100)](https://github.com/nexusNw) |  [![tearffpc](https://github.com/tearffpc.png?size=100)](https://github.com/tearffpc) | [![afnanplk](https://github.com/afnanplk.png?size=100)](https://github.com/afnanplk) 
 ----|----|----
-[Aflahxrd](https://github.com/farhan-dqz)  | [Alien-Alfa](https://github.com/nexusNw) | [afnanplk](https://github.com/afnanplk)
+[Aflahxrd](https://github.com/nexusNw)  | [tearff](https://github.com/tearffpc) | [afnanplk](https://github.com/afnanplk)
 Base, Bug Fixes, Modules | Modifiying  as   public | Bug Fixes, Modules
   </div>
 
