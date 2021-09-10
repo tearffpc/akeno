@@ -10,7 +10,7 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
     var r_text = new Array ();
     
     
-    r_text[0] = "https://i.imgur.com/fMYl0re.jpeg";
+    r_text[0] = "https://avatars.githubusercontent.com/u/90409549?v=4";
     
     
     var i = Math.floor(1*Math.random())
@@ -20,9 +20,9 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━💘Nexus ser💘━━━━━⛦
 
 
-𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 Nexusser 𝐛𝐨𝐭.
+𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 tear ser's 𝐛𝐨𝐭.
   
-*http://ẉa.me/➳AflAh*
+*http://ẉa.me/➳TEARLESS*
 
 ■□■□■□■□■□■□■□■□■□■□
 💘 *𝙈𝙚𝙙𝙞𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* 💘
