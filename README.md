@@ -1,5 +1,5 @@
 <div align="center">
-  <img border-radius: 15px src="thumb-1920-1015834.jpg" width="200" height="200"/>
+  <img border-radius: 15px src="045b4c3d8b3672a887741fa4f73ccfad-2.jpg" width="300" height="200"/>
   <p align="center">
 <a href="#"><img title="akeno" src="https://img.shields.io/badge/akeno-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
