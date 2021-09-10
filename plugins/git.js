@@ -11,7 +11,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     
     
    
-  r_text[0] = "";
+  r_text[0] = "https://avatars.githubusercontent.com/u/90409549?v=4";
     
     
     var i = Math.floor(1*Math.random())
