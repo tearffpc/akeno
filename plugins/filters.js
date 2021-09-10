@@ -118,7 +118,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
         if (!!message.mention && message.mention[0] == '918129624395@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/mention1.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-        if (!!message.mention && message.mention[0] == Config.AFNN) {
+        if (!!message.mention && message.mention[0] == '919562881715@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
 const array = ['Dheeran','Filo','nexusnw','owner','nw akhil','tear pc','Aflah','chunk','hehe','oomfi','paisa','power','navak','Athul','pain','Leroi','Nabu','insane']
@@ -150,10 +150,10 @@ if (Config.PLKBGM == 'two') {
         if (!!message.mention && message.mention[0] == '918129624395@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/Mention2.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-        if (!!message.mention && message.mention[0] == '918129624395@s.whatsapp.net') {
+        if (!!message.mention && message.mention[0] == '919562881715@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['Filo','nexusnw','owner','Aflah']
+const array = ['Filo','nexusnw','owner','tear pc']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
