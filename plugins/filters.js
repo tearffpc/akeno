@@ -121,7 +121,7 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/mention
         if (!!message.mention && message.mention[0] == '919562881715@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/ownerm.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['farhan','mr bilu','Dheeran','Filo','nexusnw','owner','nw akhil','tear pc','Aflah','chunk','hehe','oomfi','paisa','power','navak','Athul','pain','Leroi','Nabu','insane']
+const array = ['farhu','farhan','mr bilu','Dheeran','Filo','nexusnw','owner','nw akhil','tear pc','Aflah','chunk','hehe','oomfi','paisa','power','navak','Athul','pain','Leroi','Nabu','insane']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -153,7 +153,7 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/mention
         if (!!message.mention && message.mention[0] == '919562881715@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/ownerm.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['farhan','mr bilu','Filo','nexusnw','owner','tear pc']
+const array = ['farhu','farhan','mr bilu','Filo','nexusnw','owner','tear pc']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
