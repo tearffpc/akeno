@@ -121,7 +121,7 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/mention
         if (!!message.mention && message.mention[0] == '919562881715@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/ownerm.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['mr bilu','Dheeran','Filo','nexusnw','owner','nw akhil','tear pc','Aflah','chunk','hehe','oomfi','paisa','power','navak','Athul','pain','Leroi','Nabu','insane']
+const array = ['farhan','mr bilu','Dheeran','Filo','nexusnw','owner','nw akhil','tear pc','Aflah','chunk','hehe','oomfi','paisa','power','navak','Athul','pain','Leroi','Nabu','insane']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -153,7 +153,7 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/mention
         if (!!message.mention && message.mention[0] == '919562881715@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/ownerm.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['mr bilu','Filo','nexusnw','owner','tear pc']
+const array = ['farhan','mr bilu','Filo','nexusnw','owner','tear pc']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -180,7 +180,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if (!!message.mention && message.mention[0] == '919562881715@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/owner.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
-const array = ['Dheeran','nw akhil','navak','Athul','pain','Leroi','nexusnw']
+const array = ['farhan','Dheeran','nw akhil','navak','Athul','pain','Leroi','nexusnw']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
