@@ -121,7 +121,7 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/mention
         if (!!message.mention && message.mention[0] == '919562881715@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/ownerm.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['Da','Nenban','Ok','Aysheri','Ayn','adarsh sir','dingan','akhil','msn','trux','umbi','fz','aze','mr aju','bilal nenban','ajmal','stranger','tear','hi','sed','blum','afsu bilu farhu','agraj ser','aliya','bilal ser','ambadi','vyshali','nadeem','farhu','farhan','mr bilu','Dheeran','Filo','nexusnw','owner','nw akhil','tear pc','Aflah','chunk','hehe','oomfi','paisa','power','navak','Athul','pain','Leroi','Nabu','insane']
+const array = ['Noob','myr','Da','Nenban','Ok','Aysheri','Ayn','adarsh sir','dingan','akhil','msn','trux','umbi','fz','aze','mr aju','bilal nenban','ajmal','stranger','tear','hi','sed','blum','afsu bilu farhu','agraj ser','aliya','bilal ser','ambadi','vyshali','nadeem','farhu','farhan','mr bilu','Dheeran','Filo','nexusnw','owner','nw akhil','tear pc','Aflah','chunk','hehe','oomfi','paisa','power','navak','Athul','pain','Leroi','Nabu','insane']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
